@@ -48,6 +48,7 @@ function renderUserAge(dateOfBirth){
 function validateInputs(dateOfBirth){
     const errorLogs = ["Must be a valid day", "Must be a valid Month", "Must be in the past"]
     const now = dayjs()
+    
     const inputStatus = {
         years: true,
         months:true,
@@ -63,6 +64,12 @@ function validateInputs(dateOfBirth){
 
     if(dayInput.value === null || dayInput.value === "" || isNaN(dayInput.value) || dayInput.value < 1 || dayInput.value > 31){
         inputStatus.days = false;
+    }
+    if(dayInput.value > 30 && monthInput.value == 4 || monthInput.value == 6 || monthInput.value == 9 || monthInput.value == 11){
+        inputStatus.days = false;
+    }
+    if(monthInput.value == 2 && dayInput.value > 28){
+        inputStatus.days = false
     }
     if(monthInput.value === null || monthInput.value === "" || isNaN(monthInput.value) || monthInput.value < 1 || monthInput.value > 12){
         inputStatus.months = false;
