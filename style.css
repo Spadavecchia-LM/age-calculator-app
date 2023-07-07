@@ -19,12 +19,17 @@ main{
     font-family: 'Poppins', sans-serif;
     background-color: #fafafa;
 }
+main h1{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
 .form_container{
-    height: 50%;
+    height: 45%;
     width: 100%;
 }
 .age-container{
-    height: 50%;
+    height: 45%;
     width: 100%;
 }
 #form{
