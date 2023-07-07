@@ -1,0 +1,103 @@
+:root{
+    --primary-purple: hsl(259, 100%, 65%);
+    --primary-red: hsl(0, 100%, 67%);
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+}
+.form_container{
+    height: 50%;
+    width: 100%;
+}
+.age-container{
+    height: 50%;
+    width: 100%;
+}
+#form{
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 20px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input label{
+    color: var(--Smokey-grey)
+}
+.input input{
+    font-size: 18px;
+    width: 60px;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: solid 1px black;
+    outline: none;
+    background-color: transparent;
+    color: var(--Off-black);
+    font-weight: 800;
+}
+.input input::placeholder{
+    font-weight: 700;
+    color: var(--Off-black);
+}
+
+
+.form_btn{
+    border-radius: 100%;
+    border: none;
+    background-color: var(--primary-purple);
+    cursor: pointer;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+#form .input_btn{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.hidden{
+    display: none;
+}
+.dayError, .monthError, .yearError{
+    color: var(--primary-red);
+}
+.age-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+}
+.ageNumber{
+    color: var(--primary-purple);
+    font-size: 70px;
+    font-weight: 800;
+}
+#currentDays, #currentMonths, #currentYears{
+    font-size: 65px;
+}
+@keyframes bounce{
+    from{
+        transform: translate3d(0,0,0);
+    }
+    to{
+        transform: translate3d(0,10px,0);
+    }
+}
