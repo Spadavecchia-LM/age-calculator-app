@@ -29,8 +29,9 @@ main h1{
     width: 100%;
 }
 .age-container{
-    height: 45%;
+    height: 35%;
     width: 100%;
+    margin-bottom: 10%;
 }
 #form{
   display: grid;
