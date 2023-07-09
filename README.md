@@ -33,6 +33,9 @@ Users should be able to:
 ### Screenshot
 
 ![](./assets/images/screenshot.png)
+![image](https://github.com/Spadavecchia-LM/age-calculator-app/assets/100171276/662b4898-50d3-4046-9d83-3b2821e88fa2)
+![image](https://github.com/Spadavecchia-LM/age-calculator-app/assets/100171276/3a0b7544-ba51-466b-ab99-b677f729ec0e)
+
 
 
 ### Links
