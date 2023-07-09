@@ -30,8 +30,8 @@ Users should be able to:
 ### Screenshot
 
 ![](./assets/images/screenshot.png)
-![image](https://github.com/Spadavecchia-LM/age-calculator-app/assets/100171276/662b4898-50d3-4046-9d83-3b2821e88fa2)
-![image](https://github.com/Spadavecchia-LM/age-calculator-app/assets/100171276/3a0b7544-ba51-466b-ab99-b677f729ec0e)
+![image](https://res.cloudinary.com/leoms96/image/upload/v1688931233/ageapp3_x9ehlb.png)
+![image](https://res.cloudinary.com/leoms96/image/upload/v1688931233/age_app2_pro7p0.png)
 
 
 
@@ -48,6 +48,7 @@ Users should be able to:
 - JAVASCRIPT VANILLA
 - DayJS (javascript library for dates manipulation)
 - Sweet Alert js (javascript library for styled alerts)
+- Anime JS (javascript library for animations)
 
 
 ## Author
